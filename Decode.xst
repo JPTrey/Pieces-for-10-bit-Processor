@@ -1,0 +1,5 @@
+set -tmpdir "/students/home/jsimonel/Desktop/Leo/Simonelli-ControlDecode/xst/projnav.tmp"
+set -xsthdpdir "/students/home/jsimonel/Desktop/Leo/Simonelli-ControlDecode/xst"
+elaborate
+-ifn Decode.prj
+-ifmt mixed
