@@ -29,9 +29,9 @@ module Control(
 
 		input [3:0] Opcode,
 		input [3:0] ReadI1WriteI,
-		input [4:0] 5-1,
+		input [4:0] FiveToOne,
 		input [5:0] ReadI2WriteDWriteData,
-		input [1:0] 1-0,
+		input [1:0] OneToZero,
 		input Arg2,
 		input Bit0,
 		output reg ReadI1,
@@ -39,9 +39,9 @@ module Control(
 		output reg WriteI,
 		output reg WriteD,
 		output reg WriteData,
-		output reg 5-1,
-		output reg Arg2,
-		output reg Bit0
+		output reg SomeOutputWire,
+		output reg SomeOtherOutputWire,
+		output reg SomeThirdWire
     );
 
 	always @(Opcode)
