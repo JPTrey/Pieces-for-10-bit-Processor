@@ -230,6 +230,7 @@ module Control(
 			 ALUop3 = 0;
 			 ALUop4 = 0;
 			 ALUop5 = 0;
+			 
 			end
 			7 :						//storeToZero
 			begin
