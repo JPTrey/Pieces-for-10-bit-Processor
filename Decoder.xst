@@ -1,0 +1,5 @@
+set -tmpdir "/students/home/mwalker1/workspace/Pieces-for-10-bit-Processor/xst/projnav.tmp"
+set -xsthdpdir "/students/home/mwalker1/workspace/Pieces-for-10-bit-Processor/xst"
+elaborate
+-ifn Decoder.prj
+-ifmt mixed
